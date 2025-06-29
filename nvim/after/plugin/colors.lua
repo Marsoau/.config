@@ -40,6 +40,10 @@ end
 
 function PanitNightfall()
 	vim.cmd.colorscheme("nightfall")
+
+    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#2a2a37" })
+    vim.api.nvim_set_hl(0, "StatusLine", { fg = "#dce0e8", bg = "#3b4261" })
+    vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#6e738d", bg = "#2a2a37" })
 end
 
 --PaintCyberDream()
