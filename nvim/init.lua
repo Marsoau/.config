@@ -961,7 +961,7 @@ require("lazy").setup({
 	},
 })
 
-vim.g.undotree_DiffCommand = "FC"
+vim.g.undotree_DiffCommand = "diff"
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
